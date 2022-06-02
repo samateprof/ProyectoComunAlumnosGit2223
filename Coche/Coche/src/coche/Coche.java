@@ -3,7 +3,7 @@ package coche;
 
 /**
  *
- * @author Fran
+ * @author Joaquin
  */
 public class Coche {
 
@@ -13,9 +13,7 @@ public class Coche {
     private int stock;
 
     /* Constructor sin argumentos */
-    public Coche ()
-    {
-    }
+   
     // Constructor con parámetro para iniciar todas las propiedades de la clase
     // coche
     
@@ -59,6 +57,38 @@ public class Coche {
         if (obtenerStock()< cantidad)
             throw new Exception ("No se hay suficientes coches para vender");
         stock = stock - cantidad;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public double getPrecioIVA() {
+        return precioIVA;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public void setPrecioIVA(double precioIVA) {
+        this.precioIVA = precioIVA;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
     
 }  
