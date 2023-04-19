@@ -17,4 +17,8 @@ public class ProyectoComunAlumnosGit2223 {
         // TODO code application logic here
     }
     
+    
+    public static void nombre() {
+        System.out.println("Método de " + "<Eduard Pavlov>");
+    }
 }
