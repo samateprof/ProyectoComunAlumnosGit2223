@@ -17,4 +17,10 @@ public class ProyectoComunAlumnosGit2223 {
         // TODO code application logic here
     }
     
+    /**
+     * Mi método
+     */
+    public static final void samuelReche(){
+        System.out.println("Método de Samuel Reche");
+    }
 }
