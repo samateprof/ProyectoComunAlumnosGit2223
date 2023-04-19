@@ -15,6 +15,10 @@ public class ProyectoComunAlumnosGit2223 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
     }
     
+    public static final void AlejandroJurado {
+    System.out.println("Alex Jurado");
+}
 }
