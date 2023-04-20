@@ -16,5 +16,8 @@ public class Actividad433APR2122 {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+     public void antonio(){
+        System.out.println("Antonio");
+        
+     }
 }
