@@ -17,4 +17,10 @@ public class ProyectoComunAlumnosGit2223 {
         // TODO code application logic here
     }
     
+    
+    public String mariaisabel(){
+        
+        return String.format("Método de María Isabel");
+        
+    }
 }
