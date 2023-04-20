@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package proyectocomunalumnosgit2223;
 
 /**
@@ -15,8 +11,14 @@ public class ProyectoComunAlumnosGit2223 {
      */
     public static void main(String[] args) {
         
-        System.out.println("Método de Jesús Cruz");
+    }
+    
+     
         
+    public void mostrarNombre() {
+        
+        String nombre = "Jesús Cruz";   
+        System.out.println("Método de " + nombre);
     }
     
 }
