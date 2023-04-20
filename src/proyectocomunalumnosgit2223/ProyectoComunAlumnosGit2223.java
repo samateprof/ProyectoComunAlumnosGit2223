@@ -20,7 +20,7 @@ public class ProyectoComunAlumnosGit2223 {
     /**
      * Mi método
      */
-    public static final void samuelReche(){
+    public static void samuelReche(){
         System.out.println("Método de Samuel Reche");
     }
 }
